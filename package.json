@@ -1,0 +1,37 @@
+{
+  "name": "spider-shell",
+  "version": "0.0.10",
+  "description": "spider命令行工具",
+  "main": "bin/spider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gaopan",
+  "license": "ISC",
+  "bin": {
+    "spider": "bin/spider.js"
+  },
+  "dependencies": {
+    "array-uniq": "^1.0.2",
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "figlet": "^1.1.1",
+    "file": "^0.2.2",
+    "glob": "^7.0.3",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "lodash": "^4.6.1",
+    "minimatch": "^3.0.0",
+    "minimist": "^1.2.0",
+    "nodemailer": "^0.7.1",
+    "open": "0.0.5",
+    "prettysize": "0.0.3",
+    "prompt": "^1.0.0",
+    "q": "^1.4.1",
+    "request": "^2.69.0",
+    "shelljs": "^0.6.0",
+    "string-format": "^0.5.0",
+    "which-os": "0.0.2"
+  }
+}
